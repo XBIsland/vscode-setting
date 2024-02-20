@@ -1,0 +1,63 @@
+{
+    "import": {
+        "scope": "javascript,typescript,vue",
+        "prefix": "imp",
+        "body": [
+            "import { $2 } from '$1';"
+        ],
+    },
+    "export-all": {
+        "scope": "javascript,typescript",
+        "prefix": "ex",
+        "body": [
+            "export * from '$2';"
+        ],
+    },
+    "vue-setup-ts": {
+        "scope": "vue",
+        "prefix": "v3ts",
+        "body": [
+            "<script setup lang=\"ts\">",
+            "",
+            "</script>",
+            "",
+            "<template>",
+            "  <div>",
+            "",
+            "  </div>",
+            "</template>",
+            "",
+            "<style scoped>",
+            "",
+            "</style>",
+            ""
+        ]
+    },
+    "vue-class-ts": {
+        "scope": "vue",
+        "prefix": "v2ts",
+        "body": [
+            "<script lang=\"ts\">",
+            "  import { Component, Vue } from 'vue-property-decorator';",
+            "",
+            "  @Component({",
+            "    name: '$1'",
+            "  })",
+            "  export default class $2 extends Vue {",
+            "    ",
+            "  }",
+            "</script>",
+            "",
+            "<template>",
+            "  <div>",
+            "",
+            "  </div>",
+            "</template>",
+            "",
+            "",
+            "<style scoped>",
+            "",
+            "</style>"
+        ],
+    }
+}
