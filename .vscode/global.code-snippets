@@ -11,8 +11,11 @@
   },
   "defineProps": {
     "prefix": "dep",
-    "body": ["const props = defineProps<{", "  modelValue?: boolean;", "}>()"],
-    "description": ""
+    "body": ["const props = defineProps<{", "  modelValue?: boolean;", "}>()"]
+  },
+  "defineModel": {
+    "prefix": "dem",
+    "body": ["const model = defineModel(\"$1\");"]
   },
   "withDefaults": {
     "prefix": "with",
@@ -25,8 +28,7 @@
       "    modelValue: false,",
       "  }",
       ")"
-    ],
-    "description": ""
+    ]
   },
   "vue-setup-ts": {
     "scope": "vue",
