@@ -1,0 +1,55 @@
+{
+  // ========== Visuals ==========
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  // ========== Extension configs ==========
+  "better-comments.multilineComments": true,
+  "GitCommitPlugin.MaxSubjectCharacters": 50,
+  "GitCommitPlugin.ShowEmoji": false,
+  "liveServer.settings.port": 0,
+  // ========== Editor ==========
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.formatOnSave": false,
+  // ========== Eslint ==========
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  // "eslint.experimental.useFlatConfig": true,
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    // Tip: `json` and `jsonc` Support by `eslint-plugin-jsonc` plugin
+    // "json",
+    // "jsonc",
+    // Tip: `yaml` Support by `eslint-plugin-yml` plugin 
+    // "yaml",
+  ],
+  // Disable the default formatter, use eslint instead
+  "prettier.enable": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": false
+}
