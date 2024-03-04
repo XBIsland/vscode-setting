@@ -2,11 +2,9 @@
   // ========== Visuals ==========
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
-  // ========== Extension configs ==========
-  "better-comments.multilineComments": true,
-  "GitCommitPlugin.MaxSubjectCharacters": 50,
-  "GitCommitPlugin.ShowEmoji": false,
-  "liveServer.settings.port": 0,
+  "glassit.alpha": 240,
+  "where-am-i.textTransfrom": "none",
+  "where-am-i.color": "#7ead5d",
   // ========== Editor ==========
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.tabSize": 2,
@@ -16,21 +14,51 @@
   },
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.formatOnSave": false,
+  "files.eol": "\n",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   // ========== Eslint ==========
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
   // "eslint.experimental.useFlatConfig": true,
   "eslint.rules.customizations": [
-    { "rule": "style/*", "severity": "off" },
-    { "rule": "*-indent", "severity": "off" },
-    { "rule": "*-spacing", "severity": "off" },
-    { "rule": "*-spaces", "severity": "off" },
-    { "rule": "*-order", "severity": "off" },
-    { "rule": "*-dangle", "severity": "off" },
-    { "rule": "*-newline", "severity": "off" },
-    { "rule": "*quotes", "severity": "off" },
-    { "rule": "*semi", "severity": "off" }
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
   ],
   // Enable eslint for all supported languages
   "eslint.validate": [
@@ -51,5 +79,19 @@
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
-  "prettier.semi": false
+  "prettier.semi": false,
+  // ========== Extension configs ==========
+  "better-comments.multilineComments": true,
+  "GitCommitPlugin.MaxSubjectCharacters": 50,
+  "GitCommitPlugin.ShowEmoji": false,
+  "liveServer.settings.port": 0,
+  "minapp-vscode.disableAutoConfig": true,
+  "emmet.triggerExpansionOnTab": false,
+  "i18n-ally.displayLanguage": "zh-CN",
+  "svg.preview.mode": "svg",
+  "remote-snippets.snippets": [
+    {
+      "path": "https://raw.githubusercontent.com/XBIsland/vscode-setting/main/.vscode/global.code-snippets"
+    }
+  ]
 }

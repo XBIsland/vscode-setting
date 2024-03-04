@@ -2,4 +2,4 @@
 
 ## snippet
 ### Remote sync
-You can use [Remote Snippets Plugin](https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-remote-snippets) to support remote snippets.
+You can use [0x-jerry/vscode-remote-snippets](https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-remote-snippets) to support remote snippets.
