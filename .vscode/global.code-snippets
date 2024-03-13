@@ -2,20 +2,30 @@
   "import": {
     "scope": "javascript,typescript,vue",
     "prefix": "imp",
-    "body": ["import { $2 } from '$1';"]
+    "body": [
+      "import { $2 } from '$1';"
+    ]
   },
   "export-all": {
     "scope": "javascript,typescript",
     "prefix": "ex",
-    "body": ["export * from '$2';"]
+    "body": [
+      "export * from '$2';"
+    ]
   },
   "defineProps": {
     "prefix": "dep",
-    "body": ["const props = defineProps<{", "  modelValue?: boolean;", "}>()"]
+    "body": [
+      "const props = defineProps<{",
+      "  modelValue?: boolean;",
+      "}>()"
+    ]
   },
   "defineModel": {
     "prefix": "dem",
-    "body": ["const model = defineModel(\"$1\");"]
+    "body": [
+      "const model = defineModel(\"$1\");"
+    ]
   },
   "withDefaults": {
     "prefix": "with",
