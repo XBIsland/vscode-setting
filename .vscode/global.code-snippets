@@ -44,13 +44,13 @@
     "prefix": "scss",
     "body": [
       "<style lang=\"scss\" scoped>$1</style>"
-    ],
+    ]
   },
   "style-less": {
     "prefix": "less",
     "body": [
       "<style lang=\"less\" scoped>$1</style>"
-    ],
+    ]
   },
   "style-stylus": {
     "prefix": "stylus",
