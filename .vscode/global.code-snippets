@@ -30,6 +30,24 @@
       ")"
     ]
   },
+  "style-scss": {
+    "prefix": "scss",
+    "body": [
+      "<style lang=\"scss\" scoped>$1</style>"
+    ],
+  },
+  "style-less": {
+    "prefix": "less",
+    "body": [
+      "<style lang=\"less\" scoped>$1</style>"
+    ],
+  },
+  "style-stylus": {
+    "prefix": "stylus",
+    "body": [
+      "<style lang=\"stylus\" scoped>$1</style>"
+    ],
+  },
   "vue-setup-ts": {
     "scope": "vue",
     "prefix": "v3ts",
