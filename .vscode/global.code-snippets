@@ -56,7 +56,7 @@
     "prefix": "stylus",
     "body": [
       "<style lang=\"stylus\" scoped>$1</style>"
-    ],
+    ]
   },
   "vue-setup-ts": {
     "scope": "vue",
